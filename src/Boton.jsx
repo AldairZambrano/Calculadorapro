@@ -63,7 +63,7 @@ export default function Boton() {
         <button className="ui button blue" onClick={()=> Click('7')}>7</button>
         <button className="ui button blue" onClick={()=> Click('8')}>8</button>
         <button className="ui button blue" onClick={()=> Click('9')}>9</button>
-        <Button className="error"size="md" color="error" onClick={Clear} >Clear</Button>
+        <Button className="error"size="md" color="info" onClick={Clear} >Clear</Button>
         </div>
       
       <div className="boton">
@@ -79,7 +79,7 @@ export default function Boton() {
         <button className="ui button blue" onClick={()=> Click('8')}>8</button>
         <button className="ui button blue" onClick={()=> Click('9')}>9</button>
         <Button size="md" className="operaciones"color="info"  onClick={()=> Click('/')}>/</Button>
-        <Button size='md' color='error' className="operaciones" onClick={Eliminar}><i className="bi bi-backspace"></i></Button>
+        <Button size='md' color='info' className="operaciones" onClick={Eliminar}><i className="bi bi-backspace"></i></Button>
       </div>
       
       <div className="boton">
